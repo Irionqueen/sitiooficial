@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mundo América | Página Principal</title>
+    <link rel="stylesheet" type="text/css" href="sitio.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Poppins:wght@200;400;800;900&family=Quicksand&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body class="fondo">
+    <header>
+        <a href="sitio.html" class="logo">Mundo América</a>
+        <ul class="navlist">
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="#">Contactos</a></li>
+            <li><a href="#">Visión</a></li>
+            <li><a href="#">Misión</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <section class="hero">
+        <div class="hero-text">
+            <h5></h5>
+            <center><h4>Mundo</h4></center>
+            <center><h1>América</h1></center>
+            <center><p>🌟 ¡Descubre el Futuro en el Colegio Mundo América! 🌍
+
+                En el Colegio Mundo América, creemos en un mundo sin límites para nuestros estudiantes. Aquí, cada día es una aventura de aprendizaje, donde la creatividad, la innovación y la pasión son la base de nuestra enseñanza.</p></center>
+            <a href="#">AngelBot</a>
+            <a href="#" class="ctaa"><i class="ri-play-fill"></i>Ver mas...</a>
+        </div>
+        <div class="hero-img">
+            <center><img src="logo.png" title="Mundo América"></center>
+        </div>
+    </section>
+
+    <div class="icons">
+        <a href="https://www.facebook.com/colegio_mundoamerica/"><i class="ri-facebook-fill"></i></a>
+        <a href="https://www.instagram.com/mundoamerica_ec/"><i class="ri-instagram-line"></i></a>
+
+    </div>
+    <div class="scroll-down">
+        <a href="#"><i class="ri-arrow-down-s-fill"></i></a>
+    </div>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--PRELOADER | PÁGINA DE CARGA-->
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="plugin_animated_circles/css/gspinner.css">
+    <link rel="stylesheet" href="plugin_IntroLoader/css/introLoader.min.css">
+    <div id="contenedor-loader">
+        <div id="loader"></div>
+    </div>
+    <script src="jquery/jquery-3.3.1.min.js"></script>
+    <script src="popper/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugin_animated_circles/js/g-spinner.js"></script>
+    <script src="plugin_IntroLoader/js/jquery.introLoader.pack.min.js"></script>
+
+    <script type="text/javascript">
+        var $loader = $("#loader");
+        $loader.gSpinner();
+
+        window.onload = function(){
+            setTimeout(function(){
+                $("#contenedor-loader").fadeOut();
+                $loader.gSpinner("hide")
+            }, 3000);
+        };
+    </script>
+</body>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="sitio.js"></script>
+</html>
